@@ -23,7 +23,7 @@ class Extension(ext.Extension):
         return config.read(os.path.join(os.path.dirname(__file__), "ext.conf"))
 
     def setup(self, registry):
-        registry.add("http:app", {"name": "mobile", "factory": self.factory})
+        registry.add("http:app", {"name": "moser-web", "factory": self.factory})
 
     def factory(self, config, core):
         from tornado.web import RedirectHandler
