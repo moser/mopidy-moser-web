@@ -10,7 +10,7 @@ __version__ = "1.0.0"
 class Extension(ext.Extension):
 
     dist_name = "Mopidy-Moser-Web"
-    ext_name = "moser"
+    ext_name = "moser-web"
     version = __version__
 
     def get_config_schema(self):
