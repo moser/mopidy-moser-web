@@ -25,7 +25,7 @@ setup(
     install_requires=["setuptools", "Mopidy >= 0.19"],
     entry_points={
         "mopidy.ext": [
-            "mobile = mopidy_moser_web:Extension",
+            "moser-web = mopidy_moser_web:Extension",
         ],
     },
     classifiers=[
