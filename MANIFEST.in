@@ -1,9 +1,6 @@
-include CHANGELOG.rst
 include LICENSE
 include MANIFEST.in
 include README.rst
-include mopidy_mobile/ext.conf
-include tox.ini
+include mopidy_moser_web/ext.conf
 
-recursive-include mopidy_mobile/www *
-recursive-include tests *.py
+recursive-include mopidy_moser_web/www *
