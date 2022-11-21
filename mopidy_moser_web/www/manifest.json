@@ -1,0 +1,230 @@
+{
+  "favicon-16x16.png": {
+    "file": "assets/favicon-16x16.31e556a8.png",
+    "src": "favicon-16x16.png"
+  },
+  "favicon-32x32.png": {
+    "file": "assets/favicon-32x32.ce04bfa4.png",
+    "src": "favicon-32x32.png"
+  },
+  "android-chrome-48x48.png": {
+    "file": "assets/favicon-48x48.eda774c0.png",
+    "src": "android-chrome-48x48.png"
+  },
+  "favicon.ico": {
+    "file": "assets/favicon.b81e770a.ico",
+    "src": "favicon.ico"
+  },
+  "android-chrome-36x36.png": {
+    "file": "assets/android-chrome-36x36.4f0bba9b.png",
+    "src": "android-chrome-36x36.png"
+  },
+  "android-chrome-72x72.png": {
+    "file": "assets/android-chrome-72x72.11fe23cd.png",
+    "src": "android-chrome-72x72.png"
+  },
+  "android-chrome-96x96.png": {
+    "file": "assets/android-chrome-96x96.5da0b965.png",
+    "src": "android-chrome-96x96.png"
+  },
+  "mstile-144x144.png": {
+    "file": "assets/android-chrome-144x144.46b86c9b.png",
+    "src": "mstile-144x144.png"
+  },
+  "android-chrome-192x192.png": {
+    "file": "assets/android-chrome-192x192.340190d7.png",
+    "src": "android-chrome-192x192.png"
+  },
+  "android-chrome-256x256.png": {
+    "file": "assets/android-chrome-256x256.c09251b4.png",
+    "src": "android-chrome-256x256.png"
+  },
+  "android-chrome-384x384.png": {
+    "file": "assets/android-chrome-384x384.129522bb.png",
+    "src": "android-chrome-384x384.png"
+  },
+  "android-chrome-512x512.png": {
+    "file": "assets/android-chrome-512x512.c7ae82e9.png",
+    "src": "android-chrome-512x512.png"
+  },
+  "apple-touch-icon-57x57.png": {
+    "file": "assets/apple-touch-icon-57x57.b06de450.png",
+    "src": "apple-touch-icon-57x57.png"
+  },
+  "apple-touch-icon-60x60.png": {
+    "file": "assets/apple-touch-icon-60x60.9efcb61a.png",
+    "src": "apple-touch-icon-60x60.png"
+  },
+  "apple-touch-icon-72x72.png": {
+    "file": "assets/apple-touch-icon-72x72.6fc2e13d.png",
+    "src": "apple-touch-icon-72x72.png"
+  },
+  "apple-touch-icon-76x76.png": {
+    "file": "assets/apple-touch-icon-76x76.92d4ed4f.png",
+    "src": "apple-touch-icon-76x76.png"
+  },
+  "apple-touch-icon-114x114.png": {
+    "file": "assets/apple-touch-icon-114x114.a814cac1.png",
+    "src": "apple-touch-icon-114x114.png"
+  },
+  "apple-touch-icon-120x120.png": {
+    "file": "assets/apple-touch-icon-120x120.4e85bffe.png",
+    "src": "apple-touch-icon-120x120.png"
+  },
+  "apple-touch-icon-144x144.png": {
+    "file": "assets/apple-touch-icon-144x144.7f1b4d2b.png",
+    "src": "apple-touch-icon-144x144.png"
+  },
+  "apple-touch-icon-152x152.png": {
+    "file": "assets/apple-touch-icon-152x152.17029610.png",
+    "src": "apple-touch-icon-152x152.png"
+  },
+  "apple-touch-icon-167x167.png": {
+    "file": "assets/apple-touch-icon-167x167.343b051a.png",
+    "src": "apple-touch-icon-167x167.png"
+  },
+  "apple-touch-icon-precomposed.png": {
+    "file": "assets/apple-touch-icon-180x180.45db4ff1.png",
+    "src": "apple-touch-icon-precomposed.png"
+  },
+  "apple-touch-icon-1024x1024.png": {
+    "file": "assets/apple-touch-icon-1024x1024.a6031409.png",
+    "src": "apple-touch-icon-1024x1024.png"
+  },
+  "apple-touch-startup-image-640x1136.png": {
+    "file": "assets/apple-touch-startup-image-640x1136.6ddaa4b1.png",
+    "src": "apple-touch-startup-image-640x1136.png"
+  },
+  "apple-touch-startup-image-750x1334.png": {
+    "file": "assets/apple-touch-startup-image-750x1334.aba1a1c8.png",
+    "src": "apple-touch-startup-image-750x1334.png"
+  },
+  "apple-touch-startup-image-828x1792.png": {
+    "file": "assets/apple-touch-startup-image-828x1792.51afbf77.png",
+    "src": "apple-touch-startup-image-828x1792.png"
+  },
+  "apple-touch-startup-image-1125x2436.png": {
+    "file": "assets/apple-touch-startup-image-1125x2436.02cd93be.png",
+    "src": "apple-touch-startup-image-1125x2436.png"
+  },
+  "apple-touch-startup-image-1242x2208.png": {
+    "file": "assets/apple-touch-startup-image-1242x2208.3335ab96.png",
+    "src": "apple-touch-startup-image-1242x2208.png"
+  },
+  "apple-touch-startup-image-1242x2688.png": {
+    "file": "assets/apple-touch-startup-image-1242x2688.1d3f6632.png",
+    "src": "apple-touch-startup-image-1242x2688.png"
+  },
+  "apple-touch-startup-image-1536x2048.png": {
+    "file": "assets/apple-touch-startup-image-1536x2048.f6f0d6f1.png",
+    "src": "apple-touch-startup-image-1536x2048.png"
+  },
+  "apple-touch-startup-image-1668x2224.png": {
+    "file": "assets/apple-touch-startup-image-1668x2224.1a69acf3.png",
+    "src": "apple-touch-startup-image-1668x2224.png"
+  },
+  "apple-touch-startup-image-1668x2388.png": {
+    "file": "assets/apple-touch-startup-image-1668x2388.3e48aeed.png",
+    "src": "apple-touch-startup-image-1668x2388.png"
+  },
+  "apple-touch-startup-image-2048x2732.png": {
+    "file": "assets/apple-touch-startup-image-2048x2732.a0470203.png",
+    "src": "apple-touch-startup-image-2048x2732.png"
+  },
+  "apple-touch-startup-image-1136x640.png": {
+    "file": "assets/apple-touch-startup-image-1136x640.5f0ba8a5.png",
+    "src": "apple-touch-startup-image-1136x640.png"
+  },
+  "apple-touch-startup-image-2160x1620.png": {
+    "file": "assets/apple-touch-startup-image-2160x1620.cf748868.png",
+    "src": "apple-touch-startup-image-2160x1620.png"
+  },
+  "apple-touch-startup-image-1620x2160.png": {
+    "file": "assets/apple-touch-startup-image-1620x2160.9e3a8417.png",
+    "src": "apple-touch-startup-image-1620x2160.png"
+  },
+  "apple-touch-startup-image-1334x750.png": {
+    "file": "assets/apple-touch-startup-image-1334x750.3a7bdf67.png",
+    "src": "apple-touch-startup-image-1334x750.png"
+  },
+  "apple-touch-startup-image-1792x828.png": {
+    "file": "assets/apple-touch-startup-image-1792x828.6d3fb081.png",
+    "src": "apple-touch-startup-image-1792x828.png"
+  },
+  "apple-touch-startup-image-2436x1125.png": {
+    "file": "assets/apple-touch-startup-image-2436x1125.dc95c6b5.png",
+    "src": "apple-touch-startup-image-2436x1125.png"
+  },
+  "apple-touch-startup-image-2208x1242.png": {
+    "file": "assets/apple-touch-startup-image-2208x1242.51dbd3d2.png",
+    "src": "apple-touch-startup-image-2208x1242.png"
+  },
+  "apple-touch-startup-image-2688x1242.png": {
+    "file": "assets/apple-touch-startup-image-2688x1242.11181bac.png",
+    "src": "apple-touch-startup-image-2688x1242.png"
+  },
+  "apple-touch-startup-image-2048x1536.png": {
+    "file": "assets/apple-touch-startup-image-2048x1536.b45fbb1f.png",
+    "src": "apple-touch-startup-image-2048x1536.png"
+  },
+  "apple-touch-startup-image-2224x1668.png": {
+    "file": "assets/apple-touch-startup-image-2224x1668.db01cf50.png",
+    "src": "apple-touch-startup-image-2224x1668.png"
+  },
+  "apple-touch-startup-image-2388x1668.png": {
+    "file": "assets/apple-touch-startup-image-2388x1668.f8075e68.png",
+    "src": "apple-touch-startup-image-2388x1668.png"
+  },
+  "apple-touch-startup-image-2732x2048.png": {
+    "file": "assets/apple-touch-startup-image-2732x2048.e179c643.png",
+    "src": "apple-touch-startup-image-2732x2048.png"
+  },
+  "coast-228x228.png": {
+    "file": "assets/coast-228x228.fe2ed5f0.png",
+    "src": "coast-228x228.png"
+  },
+  "firefox_app_60x60.png": {
+    "file": "assets/firefox_app_60x60.daa29eca.png",
+    "src": "firefox_app_60x60.png"
+  },
+  "firefox_app_128x128.png": {
+    "file": "assets/firefox_app_128x128.9722dd6f.png",
+    "src": "firefox_app_128x128.png"
+  },
+  "firefox_app_512x512.png": {
+    "file": "assets/firefox_app_512x512.1be4e442.png",
+    "src": "firefox_app_512x512.png"
+  },
+  "mstile-70x70.png": {
+    "file": "assets/mstile-70x70.6bbad331.png",
+    "src": "mstile-70x70.png"
+  },
+  "mstile-150x150.png": {
+    "file": "assets/mstile-150x150.93af66ae.png",
+    "src": "mstile-150x150.png"
+  },
+  "mstile-310x150.png": {
+    "file": "assets/mstile-310x150.05efd45e.png",
+    "src": "mstile-310x150.png"
+  },
+  "mstile-310x310.png": {
+    "file": "assets/mstile-310x310.7afec33b.png",
+    "src": "mstile-310x310.png"
+  },
+  "yandex-browser-50x50.png": {
+    "file": "assets/yandex-browser-50x50.ee64b671.png",
+    "src": "yandex-browser-50x50.png"
+  },
+  "index.html": {
+    "file": "assets/index.0458ee72.js",
+    "src": "index.html",
+    "isEntry": true,
+    "css": [
+      "assets/index.3fce1f81.css"
+    ]
+  },
+  "index.css": {
+    "file": "assets/index.3fce1f81.css",
+    "src": "index.css"
+  }
+}
