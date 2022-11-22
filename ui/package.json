@@ -20,6 +20,6 @@
     "@vitejs/plugin-react": "^2.2.0",
     "typescript": "^4.6.4",
     "vite": "^3.2.3",
-    "vite-plugin-favicon": "^1.0.8"
+    "vite-plugin-favicons-inject": "^2.1.0"
   }
 }
