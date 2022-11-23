@@ -23,14 +23,23 @@ const Stations: Station[]= [
 function App() {
   const [volume, setVolume] = useState(0)
   const [trackName, setTrackName] = useState("")
+  const [trackUri, setTrackUri] = useState("")
   const [streamTitle, setStreamTitle] = useState("")
 
   const play = (uri:string) => {
     setTrackName("")
+    setTrackUri(uri)
     setStreamTitle("")
     mopidy.tracklist?.clear()
       .then(() => mopidy.tracklist?.add({uris: [uri]}))
       .then(() => mopidy.playback?.play({}))
+  }
+
+  const stop = () => {
+    setTrackName("")
+    setTrackUri("")
+    setStreamTitle("")
+    mopidy.playback?.stop()
   }
 
   const updateVolume = (evt : React.ChangeEvent<HTMLInputElement>) => {
@@ -40,11 +49,17 @@ function App() {
   }
 
   useEffect(() => {
-    mopidy.on("event:trackPlaybackStarted", (evt) => setTrackName(evt.tl_track.track.name))
+    mopidy.on("event:trackPlaybackStarted", (evt) => {
+      setTrackName(evt.tl_track.track.name)
+      setTrackUri(evt.tl_track.track.uri || "")
+    })
     mopidy.on("event:streamTitleChanged", (evt) => setStreamTitle(evt.title))
     mopidy.on("event:volumeChanged", (evt) => setVolume(evt.volume))
     mopidy.on("state:online", () => {
-      mopidy.playback?.getCurrentTrack().then((track) => setTrackName(track?.name || ""))
+      mopidy.playback?.getCurrentTrack().then((track) => {
+        setTrackName(track?.name || "")
+        setTrackUri(track?.uri || "")
+      })
       mopidy.playback?.getStreamTitle().then((title) => setStreamTitle(title || ""))
       mopidy.mixer?.getVolume().then((vol) => setVolume(vol || 0))
     })
@@ -55,12 +70,15 @@ function App() {
     <div className="App">
       <div className="card">
         {Stations.map((station) => 
-          (<button onClick={() => play(station.uri)} key={station.uri}>
+          (<button onClick={() => play(station.uri)} key={station.uri} className={trackUri === station.uri ? "active" : ""}>
               {station.name}
             </button>
           )
         )
         }
+        <button onClick={() => stop()}>
+          Stop
+        </button>
       </div>
       <div className="card">
         <h3>{trackName}</h3>
